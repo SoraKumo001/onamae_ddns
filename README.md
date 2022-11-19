@@ -1,10 +1,15 @@
 # onamae_ddns
 
-## usage
+## setup
 
 ```bash
 curl -O https://raw.githubusercontent.com/SoraKumo001/onamae_ddns/master/onamae_ddns
 chmod +x onamae_ddns
+```
+
+## usage
+
+```bash
 ./onamae_ddns -u userid -p password -d domain -h hostname [-i ip_addr]
 ```
 

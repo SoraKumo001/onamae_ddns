@@ -46,7 +46,7 @@ if [ ! `(
         echo -e "MODIP\nHOSTNAME:${hostname}\nDOMNAME:${domain}\nIPV4:${ip_addr}\n."
         sleep 0.1
         echo -e "LOGOUT\n."
-    ) | openssl s_client -connect ddnsclient.onamae.com:65010 -verify_quiet -quiet |  grep -c 000` = "4" ]; then
+    ) | openssl s_client -connect ddnsclient.onamae.com:65010 -verify_quiet -quiet |  grep -c 000` = "4" ];then
     echo "error"
     exit -1
 fi
